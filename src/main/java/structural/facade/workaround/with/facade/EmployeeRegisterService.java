@@ -1,4 +1,4 @@
-package Facade.workaround.with.facade;
+package main.java.structural.facade.workaround.with.facade;
 
 import java.time.LocalDateTime;
 

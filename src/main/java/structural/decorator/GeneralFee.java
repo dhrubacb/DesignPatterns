@@ -1,4 +1,4 @@
-package Decorator;
+package main.java.structural.decorator;
 
 public class GeneralFee implements Fee {
 

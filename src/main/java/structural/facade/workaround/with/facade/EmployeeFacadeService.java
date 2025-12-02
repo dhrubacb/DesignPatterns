@@ -1,4 +1,7 @@
-package Facade.workaround.with.facade;
+package facade.workaround.with.facade;
+
+import main.java.structural.facade.workaround.with.facade.EmployeeRegisterService;
+import main.java.structural.facade.workaround.with.facade.EmployeeService;
 
 public class EmployeeFacadeService {
     EmployeeService employeeService = new EmployeeService();

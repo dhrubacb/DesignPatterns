@@ -1,14 +1,13 @@
-package Facade;
+package facade;
 
-import Facade.cyclic.dependency.example.EmployeeRegisterService;
-import Facade.cyclic.dependency.example.EmployeeService;
-import Facade.workaround.with.facade.EmployeeFacadeService;
+import facade.workaround.with.facade.EmployeeFacadeService;
+import main.java.structural.facade.cyclic.dependency.example.EmployeeRegisterService;
+import main.java.structural.facade.cyclic.dependency.example.EmployeeService;
 
 import java.util.concurrent.CountDownLatch;
 
 public class CyclicDependencyMain {
     void main() throws InterruptedException {
-        CountDownLatch lock = new CountDownLatch(1);
         // This code will generate StackOverflow due to dependency on each other
         try {
             EmployeeRegisterService employeeRegisterService = new EmployeeRegisterService();

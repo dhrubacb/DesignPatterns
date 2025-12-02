@@ -1,4 +1,4 @@
-package Facade.cyclic.dependency.example;
+package main.java.structural.facade.cyclic.dependency.example;
 
 import java.util.random.RandomGenerator;
 

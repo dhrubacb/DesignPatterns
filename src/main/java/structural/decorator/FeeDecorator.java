@@ -1,4 +1,4 @@
-package Decorator;
+package main.java.structural.decorator;
 
 public class FeeDecorator implements Fee {
     protected Fee decoratorFee;
