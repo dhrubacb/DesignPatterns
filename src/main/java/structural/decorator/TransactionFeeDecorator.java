@@ -1,4 +1,4 @@
-package Decorator;
+package main.java.structural.decorator;
 
 public class TransactionFeeDecorator extends FeeDecorator {
     public TransactionFeeDecorator(Fee decoratorFee) {
