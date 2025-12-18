@@ -1,4 +1,4 @@
-package main.java.behavioral.chain_of_responsibility;
+package main.java.behavioral.chainofresponsibility;
 
 public class App {
     public static void main(String[] args) {
