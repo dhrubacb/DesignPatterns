@@ -1,5 +1,7 @@
 package main.java.gof.structural.strategy;
 
+import java.util.LinkedHashMap;
+
 public class Client {
     static void main() {
         PaymentStrategy card = (_, _) -> IO.println("Payment going through Credit Card");
@@ -8,6 +10,8 @@ public class Client {
 
         PaymentStrategy wallet = (_, _) -> IO.println("Payment going through Wallet");
         checkoutService.setPaymentStrategy(wallet);
+        LinkedHashMap<Integer, Integer> integerIntegerLinkedHashMap = new LinkedHashMap<>();
+
         checkoutService.checkout(10, "Potato", "Within 500 limit");
     }
 }
