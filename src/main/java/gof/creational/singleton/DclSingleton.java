@@ -1,5 +1,5 @@
 package main.java.gof.creational.singleton;
-
+// DCL means double-checked locking
 public class DclSingleton {
     private static volatile DclSingleton INSTANCE;
 
